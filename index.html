@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portföy Websitesi-Sena KALELİ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <!--HEADER START-->
+<header class="header">
+ <a href="#home" class="logo">Sena <span> KALELİ</span></a>
+<i class="bx bx-menu" id="menu-icon"></i>
+<nav class="navbar">
+    <a href="#home" class="active">Ana Sayfa</a>
+    <a href="#aboutme">Hakkımda</a>
+    <a href="#projects">Projeler</a>
+    <a href="#contact">İletişim</a>
+</nav>
+<button id="tema-butonu" class="btn">
+        <i class="fa-solid fa-sun" id="tema-ikonu"></i>
+    </button>
+ </header>
+
+    <!--HEADER END-->
+    <!--HOME START-->
+<section class="home" id="home">
+<div class="home-content">
+    <h1>Merhaba, ben Sena</h1>
+    <h3 class="text-animation">Ben <span></span></h3>
+   
+<div class="social-icons">
+<a href="https://www.instagram.com/kkalelisena" target="_blank"><i class="bx bxl-instagram"></i></a>
+<a href="https://github.com/kkalelisena" target="_blank"><i class="bx bxl-github"></i></a>
+<a href="https://linkedin.com/in/senakaleli" target="_blank"><i class="bx bxl-linkedin"></i></a>
+</div>
+<div class="btn-group">
+<a href="#" class="btn">CV</a>
+<a href="#contact" class="btn">Bana Ulaş</a>
+</div>
+</div>
+<div class="home-img">
+    <img src="img/image2.jpeg" alt=""/>   <!--FOTOM BURDA-->
+</div>
+</section>
+<!--HOME END-->
+
+<!--ABOUT ME START-->
+<section class="about" id="aboutme">
+ <h2 class="heading"><span>Hakkımda</span></h2>   
+ <div class="about-container">
+ <div class="about-card">
+    <p>Bilgisayar Mühendisliği 3.sınıf öğrencisiyim. Modern web teknolojileriyle kullanıcı dostu arayüzler tasarlamak ve arka planda sağlam mimariler kurgulamak üzerine çalışıyorum. HTML, CSS, JavaScript gibi temel yetkinliklerimle Full-Stack projeler geliştirirken, aynı zamanda yazılım alanının geneline ve sistemlerin mimarisine de büyük bir ilgi duyuyorum.</p><p> Amacım algoritma kurma ve problem çözme yeteneklerimi kullanarak estetik,performanslı ve ölçeklenebilir ürünler ortaya koymak. Sürekli öğrenmeye olan merakımla, yazılım dünyasında kendimi hep bir adım ileriye taşıyacak güçlü projelere imza atmayı hedefliyorum.</p>  
+     <a href="#" class="btn">CV İndir</a>
+    </div>
+ </div>
+ </div>
+</section>
+
+<!--ABOUT ME END-->
+<!--PROJECT START-->
+<section class="projects"id="projects">
+    <h2 class="heading"><span>Projeler</span></h2>
+    <div class="projects-container">
+        <div class="project-card">
+        <h3>Sanal makine ve Konteyner Kavramlarının Kapsamlı Karşılaştırılması</h3>
+            <div class="tech-stack"><span>VirtualBox</span><span>Docker</span></div>
+         <p>Sanal makine ve konteyner mimarilerinin verimliliğini karşılaştırdığım kapsamlı bir araştırma projesi. Sistemlerin CPU, RAM, disk, ve ağ performanslarını Docker ve VirtualBox üzerinden karşılaştırarak modern sanallaştırma teknolojilerinin kullanım senaryolarını verilerle raporladım.</p>
+         <a href="#" class="btn">Daha Fazlası</a>
+        </div>
+        <div class="project-card">
+            <h3>Kişisel Portföy Sitesi</h3>
+            <div class="tech-stack"><span>HTML5</span><span>CSS</span><span>JavaScript</span>
+</div>
+<p>Yazılım serüvenimi ve projelerimi dijital dünyada profesyonel bir şekilde sergilemek amacıyla geliştirdiğim kişisel websitem. Temel web teknolojilerini modern tasarım prensipleriyle harmanlayarak, tüm cihazlarla uyumlu ve kullanıcı dostu bir arayüz oluşturdum. Hem kod mimarisi hem de estetik açıdan kendi imzamı taşıyan dinamik bir portföy projesidir. </p>
+<a href="#" class="btn">Daha Fazlası</a>
+</div>
+    </div>
+</section>
+
+<!--PROJECT END-->
+<!--CONTACT START-->
+<section class="contact" id="contact">
+    <h2 class="heading"><span>İletişim</span></h2>
+<div class="contact-container">
+    <form id="iletisim-formu" action="https://formspree.io/f/mpqjoopd" method="post" class="contact-form">
+        <div class="input-box">
+            <input type="text" name="Ad Soyad" placeholder="Adınız Soyadınız" required>
+        </div>
+        <div class="input-box">
+         <input type="email" name="Email" placeholder="E-posta adresiniz" required>
+        </div>
+        <div class="input-box">
+            <input type="tel" name="Telefon" placeholder="Telefon numaranız">
+        </div>
+        <div class="input-box">
+            <textarea name="message" id="" cols="30" rows="6" placeholder="Mesajınız..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Gönder</button>
+    </form>
+</div>
+</section>
+
+
+
+
+<!--CONTACT END-->
+
+
+<script src="script.js"></script>
+</body>
+</html>

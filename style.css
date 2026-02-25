@@ -500,5 +500,47 @@ body.light-mode .about-card:hover,
 body.light-mode .project-card:hover{
     border: 1px solid #FF00FF;
     box-shadow: 0 8px 20px rgba(255, 0, 255, 0.2);
-    transform: translateY(-5px);6
+   transform: translateY(-5px);6
+}
+/*TELEFON İÇİN AYAR*/
+@media (max-width: 768px) {
+    html, body{
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+    .home{
+        flex-direction: column-reverse !important;
+        text-align: center !important;
+        padding: 120px 5% 50px 5% !important;
+        justify-content: center !important;
+    }
+    .home-img img, .about-img img{
+        width: 280px !important;
+        max-width: 80vw !important;
+        margin: 0 auto 30px auto !important;
+        display: block !important;
+    }
+    .home-content h1{
+        font-size: 2.5rem !important;
+    }
+    .contact {
+        padding: 50px 5% !important;
+        text-align: center !important;
+     }
+     .contact form{
+
+        width: 100% !important;
+        max-width: 400px !important;
+        margin: 0 auto !important;
+     }
+     .contact form .input-box{
+        display: flex !important;
+        flex-direction: column !important;
+     }
+    .contact form .input-box input,
+    .contact form textarea{
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    
 }
